@@ -3,10 +3,16 @@
 {% block content %}
     {% load static %}
     <link rel="stylesheet" type="text/css" href="{% static 'signup.css' %}"/>
+    <link href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed" rel="stylesheet"> 
+
+    <title>Sign Up</title>
 
     <div class="signup-container" align="center">
 
         <form method="post" class="signup"> {% csrf_token %}
+            
+            <div class="header">Sign Up</div>
+            
             <div>
                 <label for="id_username"></label>
                 <input type="text" name="email" placeholder="Email address" autofocus required
