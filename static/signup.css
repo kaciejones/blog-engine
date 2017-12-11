@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     height: 100vh;
-    background-color: #213264;
+    background-color: #5e6472;
 }
 
 .signup {
@@ -24,7 +24,7 @@
     padding: 4px 0;
     border: none;
     font-size: 1.15rem;
-    border-bottom: 1px solid #12173d;
+    border-bottom: 1px solid #5e6472;
     min-width: 250px;
     outline: none;
     width: 70%;
@@ -36,7 +36,7 @@
     font-size: 1rem;
     color: white;
     padding: 8px;
-    background-color: #12173d;
+    background-color: #5e6472;
     border: none;
     cursor: pointer;
     border-radius: 2px;
