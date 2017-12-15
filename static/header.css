@@ -5,6 +5,9 @@ body {
     height: 80px;
     background: #651FFF;
     display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
 }
 
 .title {
@@ -13,4 +16,16 @@ body {
     margin: 0 32px;
     font-size: 1.5rem;
     font-weight: 100;
+}
+
+.filler{
+    flex: 1 1 auto;
+}
+
+.nav-item{
+    text-decoration: none;
+    color: white;
+    align-self: center;
+    padding: 0 32px;
+    
 }
